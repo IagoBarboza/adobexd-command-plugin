@@ -1,0 +1,21 @@
+{
+	"id": "{PLUGIN_ID}",
+	"name": "AdobeXD Plugin",
+	"version": "0.0.1",
+	"description": "This is my first AdobeXD command plugin",
+	"summary": "This plugin runs a simple command that creates a rectangle on the scene",
+	"languages": ["en"],
+	"author": "Iago Barboza",
+	"helpUrl": "https://github.com/iagobarboza/adobexd-command-plugin",
+	"host": {
+		"app": "XD",
+		"minVersion": "13.0"
+	},
+	"uiEntryPoints": [
+		{
+			"type": "menu",
+			"label": "Create Retangle",
+			"commandId": "createRectangle"
+		}
+	]
+}
