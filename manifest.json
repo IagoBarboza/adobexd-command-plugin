@@ -1,6 +1,6 @@
 {
 	"id": "{PLUGIN_ID}",
-	"name": "AdobeXD Plugin",
+	"name": "AdobeXD Command Plugin",
 	"version": "0.0.1",
 	"description": "This is my first AdobeXD command plugin",
 	"summary": "This plugin runs a simple command that creates a rectangle on the scene",
