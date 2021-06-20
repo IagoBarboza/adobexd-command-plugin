@@ -15,7 +15,11 @@
 		{
 			"type": "menu",
 			"label": "Create Retangle",
-			"commandId": "createRectangle"
+			"commandId": "createRectangle",
+			"shortcut": {
+				"mac": "Cmd+Alt+C",
+				"windows": "Cmd+Alt+C"
+			}
 		}
 	]
 }
