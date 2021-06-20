@@ -2,8 +2,8 @@
 	"id": "{PLUGIN_ID}",
 	"name": "AdobeXD Command Plugin",
 	"version": "0.0.1",
-	"description": "This is my first AdobeXD command plugin",
-	"summary": "This plugin runs a simple command that creates a rectangle on the scene",
+	"description": "AdobeXD Command Plugin",
+	"summary": "An AdobeXD plugin for creating a rectangle and apply the comic sans font on texts",
 	"languages": ["en"],
 	"author": "Iago Barboza",
 	"helpUrl": "https://github.com/iagobarboza/adobexd-command-plugin",
@@ -19,6 +19,15 @@
 			"shortcut": {
 				"mac": "Cmd+Alt+C",
 				"windows": "Cmd+Alt+C"
+			}
+		},
+		{
+			"type": "menu",
+			"label": "Apply Comic Sans",
+			"commandId": "applyComicSans",
+			"shortcut": {
+				"mac": "Cmd+Alt+A",
+				"windows": "Cmd+Alt+A"
 			}
 		}
 	]

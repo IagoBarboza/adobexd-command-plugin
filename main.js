@@ -1,6 +1,6 @@
 const { Rectangle, Color } = require('scenegraph')
 
-function rectangleHandlerFunction(selection) {
+function createRectangle(selection) {
   const newElement = new Rectangle();
 
   newElement.width = 100;
@@ -12,8 +12,19 @@ function rectangleHandlerFunction(selection) {
   newElement.moveInParentCoordinates(100,100);
 }
 
+function applyComicSans(selection) {
+  if(selection.items.length !== 0) {
+    selection.items.forEach((node) => {
+      node.styleRanges = [{
+        fontFamily: 'Comic Sans MS'
+      }]
+    });
+  }
+}
+
 module.exports = {
   commands: {
-    createRectangle: rectangleHandlerFunction
+    createRectangle,
+    applyComicSans
   }
 }
