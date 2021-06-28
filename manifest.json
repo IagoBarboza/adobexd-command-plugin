@@ -1,8 +1,8 @@
 {
-	"id": "{PLUGIN_ID}",
-	"name": "AdobeXD Command Plugin",
+	"id": "a558b3f4",
+	"name": "AdobeXD Menu Plugin",
 	"version": "0.0.1",
-	"description": "AdobeXD Command Plugin",
+	"description": "AdobeXD Menu Plugin",
 	"summary": "An AdobeXD plugin for creating a rectangle and apply the comic sans font on texts",
 	"languages": ["en"],
 	"author": "Iago Barboza",
