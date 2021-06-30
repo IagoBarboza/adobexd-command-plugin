@@ -1,5 +1,5 @@
 {
-	"id": "a558b3f4",
+	"id": "{PLUGIN_ID}",
 	"name": "AdobeXD Menu Plugin",
 	"version": "0.0.1",
 	"description": "AdobeXD Menu Plugin",
@@ -28,6 +28,15 @@
 			"shortcut": {
 				"mac": "Cmd+Alt+A",
 				"windows": "Cmd+Alt+A"
+			}
+		},
+		{
+			"type": "menu",
+			"label": "Create Rainbow Text",
+			"commandId": "createRainbowText",
+			"shortcut": {
+				"mac": "Cmd+Alt+R",
+				"windows": "Cmd+Alt+R"
 			}
 		}
 	]
