@@ -17,8 +17,8 @@
 			"label": "Create Retangle",
 			"commandId": "createRectangle",
 			"shortcut": {
-				"mac": "Cmd+Alt+C",
-				"windows": "Cmd+Alt+C"
+				"mac": "Cmd+Alt+1",
+				"windows": "Ctrl+Alt+1"
 			}
 		},
 		{
@@ -26,8 +26,8 @@
 			"label": "Apply Comic Sans",
 			"commandId": "applyComicSans",
 			"shortcut": {
-				"mac": "Cmd+Alt+A",
-				"windows": "Ctrl+Alt+A"
+				"mac": "Cmd+Alt+2",
+				"windows": "Ctrl+Alt+2"
 			}
 		},
 		{
@@ -35,8 +35,8 @@
 			"label": "Create Rainbow Text",
 			"commandId": "createRainbowText",
 			"shortcut": {
-				"mac": "Cmd+Alt+R",
-				"windows": "Ctrl+Alt+T"
+				"mac": "Cmd+Alt+3",
+				"windows": "Ctrl+Alt+3"
 			}
 		}
 	]
