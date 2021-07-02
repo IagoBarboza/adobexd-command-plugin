@@ -27,7 +27,7 @@
 			"commandId": "applyComicSans",
 			"shortcut": {
 				"mac": "Cmd+Alt+A",
-				"windows": "Cmd+Alt+A"
+				"windows": "Ctrl+Alt+A"
 			}
 		},
 		{
@@ -36,7 +36,7 @@
 			"commandId": "createRainbowText",
 			"shortcut": {
 				"mac": "Cmd+Alt+R",
-				"windows": "Cmd+Alt+R"
+				"windows": "Ctrl+Alt+T"
 			}
 		}
 	]
