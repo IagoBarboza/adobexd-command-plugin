@@ -1,39 +1,45 @@
 {
+	"manifestVersion": 4,
 	"id": "{PLUGIN_ID}",
 	"name": "AdobeXD Menu Plugin",
 	"version": "0.0.1",
-	"description": "AdobeXD Menu Plugin",
-	"summary": "An AdobeXD plugin for creating a rectangle and apply the comic sans font on texts",
-	"languages": ["en"],
-	"author": "Iago Barboza",
-	"helpUrl": "https://github.com/iagobarboza/adobexd-command-plugin",
+	"main": "main.js",
 	"host": {
 		"app": "XD",
-		"minVersion": "13.0"
+		"minVersion": "36.0.0"
 	},
-	"uiEntryPoints": [
+	"entryPoints": [
 		{
-			"type": "menu",
-			"label": "Create Retangle",
-			"commandId": "createRectangle",
+			"type": "command",
+			"id": "createRectangle",
+			"label": {
+				"default": "Create Rectangle",
+				"pt-BR": "Criar Retângulo"
+			},
 			"shortcut": {
 				"mac": "Cmd+Alt+1",
 				"windows": "Ctrl+Alt+1"
 			}
 		},
 		{
-			"type": "menu",
-			"label": "Apply Comic Sans",
-			"commandId": "applyComicSans",
+			"type": "command",
+			"id": "applyComicSans",
+			"label": {
+				"default": "Apply commic sans",
+				"pt-BR": "Aplicar commic sans"
+			},
 			"shortcut": {
 				"mac": "Cmd+Alt+2",
 				"windows": "Ctrl+Alt+2"
 			}
 		},
 		{
-			"type": "menu",
-			"label": "Create Rainbow Text",
-			"commandId": "createRainbowText",
+			"type": "command",
+			"id": "createRainbowText",
+			"label": {
+				"default": "Create Rainbow Text",
+				"pt-BR": "Criar texto arco-iris"
+			},
 			"shortcut": {
 				"mac": "Cmd+Alt+3",
 				"windows": "Ctrl+Alt+3"
