@@ -1,29 +1,18 @@
 const { Rectangle, Color, Text } = require('scenegraph')
 
-function createRectangle(selection) {
+const createRectangle = (selection) => {
   const newElement = new Rectangle();
 
   newElement.width = 100;
   newElement.height = 50;
-  newElement.fill = new Color('Purple');
+  newElement.fill = new Color('Purple'); 
 
   selection.insertionParent.addChild(newElement);
 
   newElement.moveInParentCoordinates(100,100);
 }
 
-function applyComicSans(selection) {
-  if(selection.items.length !== 0) {
-    selection.items.forEach((node) => {
-      node.styleRanges = [{
-        fontFamily: 'Comic Sans MS',
-        fill: new Color('blue')
-      }]
-    });
-  }
-}
-
-function createRainbowText(selection) {
+const createRainbowText = (selection) => {
   const rainbowText = new Text();
 
   const textData = [
@@ -48,13 +37,23 @@ function createRainbowText(selection) {
   selection.insertionParent.addChild(rainbowText);
 
   rainbowText.moveInParentCoordinates(200, 200);
+}
 
+const applyComicSans = (selection) => {
+  if(selection.items.length !== 0) {
+    selection.items.forEach((node) => {
+      node.styleRanges = [{
+        fontFamily: 'Comic Sans MS',
+        fill: new Color('blue')
+      }]
+    });
+  }
 }
 
 module.exports = {
   commands: {
     createRectangle,
-    applyComicSans,
-    createRainbowText
+    createRainbowText,
+    applyComicSans
   }
 }

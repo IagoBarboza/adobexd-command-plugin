@@ -23,10 +23,10 @@
 		},
 		{
 			"type": "command",
-			"id": "applyComicSans",
+			"id": "createRainbowText",
 			"label": {
-				"default": "Apply commic sans",
-				"pt-BR": "Aplicar commic sans"
+				"default": "Create Rainbow Text",
+				"pt-BR": "Criar texto arco-iris"
 			},
 			"shortcut": {
 				"mac": "Cmd+Alt+2",
@@ -35,10 +35,10 @@
 		},
 		{
 			"type": "command",
-			"id": "createRainbowText",
+			"id": "applyComicSans",
 			"label": {
-				"default": "Create Rainbow Text",
-				"pt-BR": "Criar texto arco-iris"
+				"default": "Apply commic sans",
+				"pt-BR": "Aplicar commic sans"
 			},
 			"shortcut": {
 				"mac": "Cmd+Alt+3",
