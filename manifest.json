@@ -1,7 +1,7 @@
 {
 	"manifestVersion": 4,
-	"id": "{PLUGIN_ID}",
-	"name": "AdobeXD Menu Plugin",
+	"id": "12345678",
+	"name": "AdobeXD Command Plugin",
 	"version": "0.0.1",
 	"main": "main.js",
 	"host": {
@@ -44,6 +44,16 @@
 				"mac": "Cmd+Alt+3",
 				"windows": "Ctrl+Alt+3"
 			}
+		}
+	],
+	"icons": [
+		{
+			"width": 24,
+			"height": 24,
+			"path": "icons/icon.png",
+			"scale": [1,2],
+			"theme": ["all"],
+			"species": ["pluginList"]
 		}
 	]
 }
